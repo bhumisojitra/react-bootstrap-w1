@@ -1,0 +1,52 @@
+.btn-box2{
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+}
+.btn-box2 form{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #27272f;
+    padding: 7px 0px 6px 7px;
+}
+.btn-box2 button{
+    display: inline-block;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+}
+button i{
+    color: hsla(53, 24%, 67%, .95);
+}
+.btn-box2 a:hover{
+    background-color: #de9190;
+    transition: all 0.4s ease;
+    color: white;
+}
+.btn-box2:hover button{
+    background-color: #000000;
+    transition: all 0.4s ease;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px 0px 0px 20px;
+    font-size: 14px;
+}
+input::placeholder {
+    color: #fff; 
+    opacity: .7;
+    font-size: 14px;
+}

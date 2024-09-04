@@ -1,0 +1,5 @@
+.carousel-control-prev span, .carousel-control-next span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}

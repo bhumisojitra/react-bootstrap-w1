@@ -1,0 +1,87 @@
+.blog-card-info{
+    padding: 30px 15px;
+    background-color: #f5f6fb;
+}
+.blog-card-info h6{
+    font-size: 12px;
+    background-color: #91ad41;
+    text-transform: uppercase;
+    padding: 2px 18px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.blog-card-info .pop{
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.blog-card-info .pop a{
+    color: #27272f;
+    line-height: 1.9em;
+    text-decoration: none;
+}
+.post-info li{
+    padding: 0 5px;
+    margin: 0 5px;
+    color: #5e5e5e;
+    font-size: 12px;
+}
+.CardBlog:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    transition: all .4s ease;
+}
+.CardBlog:hover .pop a{
+    color: #91ad41;
+    transition: all .4s ease;
+}
+.CardBlog:hover .overlay-box{
+    transform: scale(1);
+    transform-origin: right center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 40%;
+    color: #fff;
+    text-align: center;
+    background-color: hsla(53, 24%, 67%, .8);
+    transition: all .4s ease;
+}
+.CardBlog:hover .overlay-inner{
+    transform: scale(1);
+}
+ .overlay-inner{
+    transform: scale(0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+    padding: 10px 0;
+}
+.CardBlog:hover .content{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+.CardBlog:hover .content a{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    line-height: 46px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: 700;
+    display: inline-block;
+    border: 2px solid #fff;
+    transition: all .3s ease;
+}
+.content a:hover{
+    background-color: #fff;
+}
+.content a:hover i{
+    color: hsla(53, 24%, 67%, .8);
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 14px !important;
+    color: #777;
+    line-height: 1.7em;
+    font-weight: 400;
+    background: #fff;
+    font-family: "Poppins", sans-serif !important;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.ml-80{
+    margin-left: 80px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.p-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pt-150{
+    padding-top: 150px;
+}

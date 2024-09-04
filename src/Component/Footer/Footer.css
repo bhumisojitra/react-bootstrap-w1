@@ -1,0 +1,28 @@
+.footer{
+    padding-bottom: 45px;
+}
+.footer-content p{
+    margin-bottom: 15px;
+}
+.footer-content ul{
+    position: relative;
+}
+.footer-content ul li span{
+    position: absolute;
+    left: 0;
+    color: #858585;
+}
+.footer-content ul li{
+    margin-bottom: 12px;
+}
+.footer-content ul li a{
+    text-decoration: none;
+}
+.link li a{
+    color: white;
+}
+.link li a:hover{
+    color: #858585;
+    transform: all 0.4s ease-in;
+    font-weight: 600;
+}  

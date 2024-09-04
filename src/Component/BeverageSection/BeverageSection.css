@@ -1,0 +1,49 @@
+.Beverag h6{
+    padding-top: 20px;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 18px;
+}
+.Beverag h6 a{
+    text-decoration: none;
+    color: #27272f;
+}
+.Beverag p{
+    color: #777777;
+}
+.Beverag{
+    margin-left: 22px;
+    overflow: hidden;
+}
+.Beverag .images{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #beb996;
+}
+.Beverag .images img{
+    position: relative;
+    width: 100%;
+    display: block;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease
+}
+.Beverag:hover img{
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #beb996;
+    transform: rotate(2deg) scale(1.4);
+    transition: transform .3s ease-in-out, background-color .3s ease-in-out;
+}
+.Beverag:hover .images img{
+    opacity: .6;
+    transform: scale(1.06) rotate(2deg)
+}
+.Beverag:hover h6 a{
+    color: #DE9190;
+}

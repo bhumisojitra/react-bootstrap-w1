@@ -1,0 +1,15 @@
+.footer-title h6{
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    position: relative;
+}
+.footer-title h6::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 45px;
+    background-color: #beb996;
+}

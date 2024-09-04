@@ -1,0 +1,19 @@
+.text{
+    top: 220px;
+    opacity: 0.7;
+    text-align: center;
+    color: #fafafa;
+    font-size: 400px;
+    line-height: 1em;
+    font-family: LillyBelle;
+    z-index: -2;
+}
+.juice-d{
+    padding-top: 120px;
+}
+.juice-d p{
+    color: #5e5e5e;
+    font-weight: 400;
+    margin-top: 22px;
+    font-size: 16px;
+}
